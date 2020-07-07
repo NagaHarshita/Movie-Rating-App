@@ -1,0 +1,76 @@
+.hi{
+  background-color:#212121;
+}
+.App{
+  background-color:#212121;
+  /*min-height: 1500px;*/
+  color:#86ddf8;
+  font-family: candara;
+  border-color: #666;
+  -webkit-box-shadow: 9px 10px 20px -10px #86ddf8;
+  box-shadow: 9px 10px 20px -10px #86ddf8;
+  font-Family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", "sans-serif"         
+}
+.header{
+  background-color:#212121;
+}
+.heading{
+ 
+  background-image: url('./movie_loop.png');
+  background-repeat: no-repeat;
+  background-size: 350px 110px;
+  margin-top: 22px;
+  text-align: center;
+  min-height: 100px;
+  -webkit-box-shadow: 9px 10px 20px -10px #86ddf8;
+  box-shadow: 9px 10px 20px -10px #86ddf8;
+  border: 2px solid #86ddf8;
+}
+.heading h1{
+  color:#86ddf8; 
+  font-family:'Acme' ;
+  /*color:#212121;*/
+}
+.card{
+  font-family:candara;
+  border: 2px solid #86ddf8;
+  text-align: center;
+  background-color:black;
+  margin: 20px;
+  font-size:20px; 
+  -webkit-box-shadow: 9px 10px 20px -10px #86ddf8;
+  box-shadow: 9px 10px 20px -10px #86ddf8;
+}
+.transtext {
+  padding: 10px;
+  text-align: center;
+  color :white;
+  font-size: 20px;
+}
+
+.title li{
+  font-size: 20px;
+  text-decoration:none;
+}
+.hi{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.links{
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-decoration: none;
+  color:white;
+  font-size : 25px;
+  margin: 10px;
+}
+.add{
+  float: right;
+  top: 70%;
+}
+
+.fa{
+  font-size: 30px;
+}
